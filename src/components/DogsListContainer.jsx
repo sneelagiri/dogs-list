@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import DogsList from "./DogsList";
-import { Link } from "react-router-dom";
 
 export default class DogsListContainer extends Component {
   state = { dogBreeds: null };
